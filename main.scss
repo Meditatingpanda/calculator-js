@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
   
 }
 
@@ -24,6 +25,10 @@ $col-4:rgb(68,57,102);
   .display {
     width: $wt;
     height: math.div($ht, 6);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
     background-color: $col-2;
   }
   .input-part {
@@ -38,6 +43,9 @@ $col-4:rgb(68,57,102);
       display: flex;
       justify-content: center;
       align-items: center;
+      cursor: pointer;
+      //z-index: 10;
+      
       h3{
           color: white;
           font-size: 2rem;
