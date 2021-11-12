@@ -5,22 +5,24 @@
 }
 
 .cal-body {
-  height: 100vh;
-  width: 100vw;
+  margin: auto;
+  height: 30rem;
+  width: 20rem;
+  margin-top: 15vh;
 }
 .cal-body .display {
-  width: 100vw;
-  height: 16.6666666667vh;
+  width: 20rem;
+  height: 5rem;
   background-color: #463966;
 }
 .cal-body .input-part {
-  width: 100vw;
-  height: 16.6666666667vh;
+  width: 20rem;
+  height: 5rem;
   display: flex;
 }
 .cal-body .input-part .action {
-  width: 25vw;
-  height: 16.6666666667vh;
+  width: 5rem;
+  height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
