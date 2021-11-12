@@ -7,8 +7,8 @@
   
 }
 
-$ht: 30rem;
-$wt: 20rem;
+$ht: 100vh;
+$wt: 100vw;
 $col-1: rgb(101, 89, 127);
 $col-2: rgb(70, 57, 102);
 $col-3: rgb(242, 183, 60);
@@ -17,10 +17,10 @@ $col-4:rgb(68,57,102);
 //   border: 1px solid white;
 // }
 .cal-body {
-  margin: auto;
+  //margin: auto;
   height: $ht;
   width: $wt;
-  margin-top: 20vh;
+ // margin-top: 20vh;
   .display {
     width: $wt;
     height: math.div($ht, 6);
