@@ -17,6 +17,9 @@ var equalTo=document.getElementById("equal");
 var allClear=document.getElementById("all-clear");
 var clear=document.getElementById("clear");
 var sign=document.getElementById("sign");
+var dot=document.getElementById(".");
+var modulo=document.getElementById("modulo");
+
 var input="";
 var op=null;
 var temp;
@@ -84,19 +87,29 @@ minus.addEventListener("click",function(){
     input="";
     display.innerHTML=input;
 })
+modulo.addEventListener("click",function(){
+    op="%";
+    temp=input;
+    input="";
+    display.innerHTML=input;
+})
 allClear.addEventListener("click",function(){
    input="";
    display.innerHTML=input;
 })
 // Clear.addEventListener("click",function(){
-//     input=input.slice(0,input.length);
+//     input=input.slice(0,input.length-1);
 //     display.innerHTML=input;
 //  })
+
 sign.addEventListener("click",function(){
     input=-input;
     display.innerHTML=input;
  })
-
+//  dot.addEventListener("click",function(){
+//     input=input+".";
+//     display.innerHTML=input;
+//  })
 equalTo.addEventListener("click",function(){
     display.innerHTML=eval(temp+op+input);
     temp="";
