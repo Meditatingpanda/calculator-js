@@ -6,15 +6,16 @@
   box-sizing: border-box;
   
 }
+
 $ht: 30rem;
 $wt: 20rem;
 $col-1: rgb(101, 89, 127);
 $col-2: rgb(70, 57, 102);
 $col-3: rgb(242, 183, 60);
 $col-4:rgb(68,57,102);
-div {
-  border: 1px solid black;
-}
+// div {
+//   border: 1px solid white;
+// }
 .cal-body {
   margin: auto;
   height: $ht;
@@ -29,6 +30,8 @@ div {
     width: $wt;
     height: math.div($ht, 6);
     display: flex;
+   
+    
     .action {
       width: math.div($wt, 4);
       height: math.div($ht, 6);
@@ -55,6 +58,7 @@ div {
 #clear,
 #zero,
 #dot {
+ 
   background-color: $col-1;
 }
 #subtract,#multiply,#plus,#divide,#equal{
