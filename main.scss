@@ -9,11 +9,11 @@
 }
 
 $ht: 30rem;
-$wt: 20rem;
-$col-1: rgb(101, 89, 127);
-$col-2: rgb(70, 57, 102);
-$col-3: rgb(242, 183, 60);
-$col-4:rgb(68,57,102);
+$wt: 23rem;
+$col-1: black;
+$col-2: black;
+$col-3:  rgb(223, 154, 7);
+$col-4: black;
 // div {
 //   border: 1px solid white;
 // }
@@ -22,6 +22,7 @@ $col-4:rgb(68,57,102);
   height: $ht;
   width: $wt;
   margin-top: 15vh;
+  border-radius: 10px;
   .display {
     width: $wt;
     height: math.div($ht, 6);

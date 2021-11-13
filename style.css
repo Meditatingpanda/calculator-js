@@ -8,25 +8,26 @@
 .cal-body {
   margin: auto;
   height: 30rem;
-  width: 20rem;
+  width: 23rem;
   margin-top: 15vh;
+  border-radius: 10px;
 }
 .cal-body .display {
-  width: 20rem;
+  width: 23rem;
   height: 5rem;
   font-size: 2rem;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
-  background-color: #463966;
+  background-color: black;
 }
 .cal-body .input-part {
-  width: 20rem;
+  width: 23rem;
   height: 5rem;
   display: flex;
 }
 .cal-body .input-part .action {
-  width: 5rem;
+  width: 5.75rem;
   height: 5rem;
   display: flex;
   justify-content: center;
@@ -50,15 +51,15 @@
 #clear,
 #zero,
 #dot {
-  background-color: #65597f;
+  background-color: black;
 }
 
 #subtract, #multiply, #plus, #divide, #equal {
-  background-color: #f2b73c;
+  background-color: #df9a07;
 }
 
 #all-clear, #sign, #modulo {
-  background-color: #443966;
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
