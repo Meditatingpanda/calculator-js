@@ -97,10 +97,10 @@ allClear.addEventListener("click",function(){
    input="";
    display.innerHTML=input;
 })
-// Clear.addEventListener("click",function(){
-//     input=input.slice(0,input.length-1);
-//     display.innerHTML=input;
-//  })
+clear.addEventListener("click",function(){
+    input=input.slice(0,input.length-1);
+    display.innerHTML=input;
+ })
 
 sign.addEventListener("click",function(){
     input=-input;
