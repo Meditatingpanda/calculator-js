@@ -17,7 +17,7 @@ var equalTo=document.getElementById("equal");
 var allClear=document.getElementById("all-clear");
 var clear=document.getElementById("clear");
 var sign=document.getElementById("sign");
-var dot=document.getElementById(".");
+var dot=document.getElementById("dot");
 var modulo=document.getElementById("modulo");
 
 var input="";
@@ -106,10 +106,10 @@ sign.addEventListener("click",function(){
     input=-input;
     display.innerHTML=input;
  })
-//  dot.addEventListener("click",function(){
-//     input=input+".";
-//     display.innerHTML=input;
-//  })
+ dot.addEventListener("click",function(){
+    input=input+".";
+    display.innerHTML=input;
+ })
 equalTo.addEventListener("click",function(){
     display.innerHTML=eval(temp+op+input);
     temp="";
